@@ -1,0 +1,83 @@
+.mask{
+    background-color: #000c;
+    position: fixed;
+    opacity: 50px;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(FineFlower10.jpg);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.mask h1{
+    position: relative;
+    top: 25%;
+    left: 35%;
+    font-style: italic;
+    color: palevioletred;
+    text-shadow: 2px 10px 4px purple;
+}
+.mask h2{
+    position: relative;
+    top: 25%;
+    left: 37%;
+    font-style: italic;
+    color: peachpuff;
+    text-shadow: 2px 10px 4px purple;
+}
+.mask h3{
+    position: relative;
+    top: 25%;
+    left: 40%;
+    font-style: italic;
+    color: palevioletred;
+    text-shadow: 2px 10px 4px purple;
+}
+.mask h4{
+    position: relative;
+    top: 25%;
+    left: 42%;
+    font-style: italic;
+    color: peachpuff;
+    text-shadow: 2px 10px 4px purple;
+}
+.navbar{
+    position: static;
+    width: 100%;
+    top: 0;
+}
+.navbar li:hover{
+    background-color: rgb(145, 54, 145);
+    color: #FAFAFA;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 20px 100px 20px 60px;
+    color: purple;
+}
+a{
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 200px;
+    text-decoration: none;
+    background-color: rgb(145, 54, 145);
+    box-shadow: 2px 5px 4px purple;
+}
+#left{
+    margin-left: 8%;
+    margin-top: 26%;
+}
+#right{
+    margin-left: 32%;
+    margin-top: 26%;
+}
